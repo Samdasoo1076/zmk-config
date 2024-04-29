@@ -7,4 +7,3 @@ manifest:
       remote: zmk-config
       revision: main
       import: config/west.yml
-      path: config
