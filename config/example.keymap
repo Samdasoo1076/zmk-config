@@ -57,13 +57,13 @@ bindings = <
 // | LCTRL |  `~ | LWIN| PLAY | DEL  | INS  |                   | RALT |  HOME |  END  | PGUP |  PGDN  | SHIFT |
 //                            | DEL  | SPACE|                   | BSPC |  RET  | 
 //                            | LT2  | LT1  |                   | LT3  |       |
- upper_layer {
-UPPER = <
-&kp ESC    &kp F1        &kp F2        &kp F3         &kp F4          &kp F5                    /**/            &kp F6     &kp F7          &kp F8         &kp F9        &kp F10           &td0
-&kp LSHIFT &kp N1        &kp N2        &kp N3         &kp N4          &kp N5                    /**/            &kp N6     &kp N7          &kp N8         &kp N9        &kp N0           &kp F12
-&kp LCRL   &kp GRAVE     &kp LWIN      &kp K_PP        &kp DEL       &kp INS                 /**/            &kp RALT   &kp HOME        &kp END      &kp PG_UP       &kp PG_DN         &kp BSLH
+// upper_layer {
+// UPPER = <
+// &kp ESC    &kp F1        &kp F2        &kp F3         &kp F4          &kp F5                    /**/            &kp F6     &kp F7          &kp F8         &kp F9        &kp F10           &td0
+// &kp LSHIFT &kp N1        &kp N2        &kp N3         &kp N4          &kp N5                    /**/            &kp N6     &kp N7          &kp N8         &kp N9        &kp N0           &kp F12
+// &kp LCRL   &kp GRAVE     &kp LWIN      &kp K_PP        &kp DEL       &kp INS                 /**/            &kp RALT   &kp HOME        &kp END      &kp PG_UP       &kp PG_DN         &kp BSLH
                                                      &lt 2 alt       &lt 1 SPACE                /**/         &lt 3 BSPC   &kp RET                           
-            >;
-};
+//            >;
+// };
     };
 };
