@@ -5,6 +5,4 @@ url-base: https://github.com/Samdasoo1076
 projects:
   - name: zmk-config
 revision: main
-import: config/west.yml
-self:
 path: config
