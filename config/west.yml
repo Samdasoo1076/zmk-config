@@ -1,0 +1,19 @@
+manifest:
+
+remotes:
+  - name: some_remote_name
+
+url-base: https://github.com/Samdasoo1076
+
+projects:
+  - name: myzmkfirmware
+
+remote: some_remote_name
+
+revision: some_branch
+
+import: config/west.yml
+
+self:
+
+path: config

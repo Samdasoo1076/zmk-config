@@ -1,0 +1,9 @@
+# 내 키보드의 존재를 알리기
+# 내 스플릿 키보드의 이름은 EXAMPLE
+
+# SHIELD_{이름}_손 형식
+config SHIELD_EXAMPLE_LEFT
+    def_bool $(shields_list_contains,example_left)
+
+config SHIELD_EXAMPLE_RIGHT
+    def_bool $(shields_list_contains,example_right)
