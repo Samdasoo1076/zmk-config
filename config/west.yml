@@ -1,19 +1,11 @@
 manifest:
-
-remotes:
-  - name: zmk-config
-
-url-base: https://github.com/Samdasoo1076
-
-projects:
-  - name: zmkg-config
-
-remote: zmk-config
-
-revision: main
-
-import: config/west.yml
-
-self:
-
-path: config
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/Samdasoo1076
+  projects:
+    - name: zmkfirmwares
+      remote: zmkfirmware
+      revision: example
+      import: config/west.yml
+  self:
+    path: config
