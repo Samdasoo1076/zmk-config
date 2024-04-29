@@ -1,16 +1,16 @@
 manifest:
 
 remotes:
-  - name: some_remote_name
+  - name: zmk-config
 
 url-base: https://github.com/Samdasoo1076
 
 projects:
-  - name: myzmkfirmware
+  - name: zmk-config
 
-remote: some_remote_name
+remote: zmk-config
 
-revision: some_branch
+revision: main
 
 import: config/west.yml
 
